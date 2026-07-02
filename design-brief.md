@@ -449,7 +449,7 @@ Para cada sección: propósito UX (JTBD), por qué va en esa posición, contenid
 - **Cards (descripción ampliada):**
   - **Ortodoncia — brackets y alineadores.** Enderezar tus dientes sí puede ser cómodo. Trabajamos con brackets y alineadores transparentes, y te ayudamos a elegir la opción que va con tu vida y tu presupuesto. Te decimos desde el inicio cuánto va a durar y cómo se verá. *Valoración inicial sin costo.* [DEMO]
   - **Diseño de sonrisa.** La sonrisa que imaginas, planeada contigo. Vemos forma, color y proporción, y te mostramos cómo quedaría antes de empezar. Tú apruebas el resultado antes del primer cambio.
-  - **Blanqueamiento dental.** Nuestro tratamiento estrella — y el favorito de nuestras pacientes. Recuperas el blanco de tus dientes de forma segura, sin sensibilidad innecesaria. *Con garantía de retoque de cortesía.* [DEMO]
+  - **Blanqueamiento dental.** Nuestro tratamiento estrella — y el favorito de nuestros pacientes. Recuperas el blanco de tus dientes de forma segura, sin sensibilidad innecesaria. *Con garantía de retoque de cortesía.* [DEMO]
   - **Odontopediatría — dentista para niños.** El primer dentista marca toda la relación de un niño con su sonrisa. Aquí hay paciencia, cariño y juego. Tus hijos entran con miedo y salen pidiendo la siguiente cita.
   - **Urgencias dentales.** ¿Dolor, un golpe, algo que no puede esperar? Te atendemos lo antes posible y te calmamos el dolor primero. Nunca estás sola con una emergencia.
 - **CTA:** por card **Quiero saber más →** · de sección **Agenda tu valoración**
@@ -477,14 +477,14 @@ Para cada sección: propósito UX (JTBD), por qué va en esa posición, contenid
 
 ## 8. Blanqueamiento destacado
 - **Headline:** **Un blanqueamiento del que todas hablan.** *(alt: "Recupera tu blanco natural, sin sensibilidad.")*
-- **Subheadline:** Es el tratamiento favorito de nuestras pacientes — y el que más nos recomiendan. Con razón.
+- **Subheadline:** Es el tratamiento favorito de nuestros pacientes — y el que más nos recomiendan. Con razón.
 - **Texto:** Un blanqueamiento profesional no es solo "dientes más blancos": es hacerlo bien, sin dañar tu esmalte y sin la sensibilidad de los productos caseros. Medimos tu tono inicial, te explicamos cuánto vas a aclarar de forma realista y cuidamos cada detalle. Sales con una sonrisa más luminosa el mismo día.
 - **Garantía [DEMO]:** *Garantía de blanqueamiento — si en las primeras 2 semanas el resultado no te convence, te hacemos un retoque de cortesía. Sin costo, sin preguntas incómodas.*
 - **CTA:** **Quiero mi blanqueamiento** · secundario **Ver antes y después**
-- **Microcopy:** *Resultados reales de nuestras pacientes.* [DEMO — usar fotos autorizadas] · *Procedimiento seguro, supervisado por las doctoras. Cuidamos tu esmalte.*
+- **Microcopy:** *Resultados reales de nuestros pacientes.* [DEMO — usar fotos autorizadas] · *Procedimiento seguro, supervisado por las doctoras. Cuidamos tu esmalte.*
 
 ## 9. Testimonios
-- **Headline:** **Nuestras pacientes lo dicen mejor que nosotras.**
+- **Headline:** **nuestros pacientes lo dicen mejor que nosotras.**
 - **Subheadline:** 10 reseñas. Las 10, de 5 estrellas. Esto es lo que dicen.
 - **Reseñas reales (Google, 2026):**
   - ★★★★★ "Las mejores dras, súper profesionales, trabajan con mucho cuidado."
