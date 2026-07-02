@@ -468,7 +468,7 @@
                       box-shadow 0.2s;
                   "
                   style-hover="background:#2F4437;transform:translateY(-2px);box-shadow:0 14px 34px rgba(62,86,71,.28)"
-                  >Agendar cita</a
+                   target="_blank" rel="noopener">4426083776</a
                 >
               </div>
             </sc-if>
@@ -491,7 +491,7 @@
                     text-decoration: none;
                     box-shadow: 0 8px 22px rgba(62, 86, 71, 0.2);
                   "
-                  >Agendar</a
+                   target="_blank" rel="noopener">Agendar</a
                 >
                 <button
                   type="button"
@@ -727,7 +727,7 @@
                     sans-serif;
                   text-decoration: none;
                 "
-                >Agenda tu valoración</a
+                 target="_blank" rel="noopener">Agenda tu valoración</a
               >
               <a
                 href="tel:+524426083776"
@@ -879,7 +879,7 @@
                         box-shadow 0.22s;
                     "
                     style-hover="background:#2F4437;transform:translateY(-2px);box-shadow:0 18px 42px rgba(62,86,71,.30)"
-                    >Agenda tu primera valoración
+                     target="_blank" rel="noopener">Agenda tu primera valoración
                     <svg
                       width="18"
                       height="18"
@@ -1025,7 +1025,7 @@
                   "
                 >
                   <img
-                    src="./image.png"
+                    src="./image.webp"
                     alt=""
                     fetchpriority="high"
                     style="
@@ -1054,37 +1054,6 @@
                         );
                     "
                   ></div>
-                  <span
-                    style="
-                      position: absolute;
-                      left: 16px;
-                      bottom: 16px;
-                      display: inline-flex;
-                      align-items: center;
-                      gap: 8px;
-                      padding: 8px 13px;
-                      border-radius: 999px;
-                      background: rgba(251, 248, 244, 0.86);
-                      backdrop-filter: blur(8px);
-                      font:
-                        500 12px/1 Inter,
-                        sans-serif;
-                      color: #6b6259;
-                    "
-                  >
-                    <svg
-                      width="13"
-                      height="13"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="#C08457"
-                      stroke-width="1.6"
-                      aria-hidden="true"
-                    >
-                      <circle cx="12" cy="12" r="9" />
-                      <circle cx="12" cy="12" r="3.4" /></svg
-                    >Recepción · luz natural
-                  </span>
                 </div>
               </div>
             </div>
@@ -1099,12 +1068,12 @@
       <div data-reveal style="margin-top:22px;display:flex;flex-wrap:wrap;justify-content:center;gap:9px"><span style="display:inline-flex;align-items:center;gap:7px;padding:8px 13px;border-radius:999px;background:#FFFFFF;border:1px solid #E4D9CC;font:500 13.5px/1 Inter,sans-serif;color:#2A2521"><span style="width:6px;height:6px;border-radius:50%;background:#C08457" aria-hidden="true"></span>Blanqueamiento</span><span style="display:inline-flex;align-items:center;gap:7px;padding:8px 13px;border-radius:999px;background:#FFFFFF;border:1px solid #E4D9CC;font:500 13.5px/1 Inter,sans-serif;color:#2A2521"><span style="width:6px;height:6px;border-radius:50%;background:#3E5647" aria-hidden="true"></span>Ortodoncia</span><span style="display:inline-flex;align-items:center;gap:7px;padding:8px 13px;border-radius:999px;background:#FFFFFF;border:1px solid #E4D9CC;font:500 13.5px/1 Inter,sans-serif;color:#2A2521"><span style="width:6px;height:6px;border-radius:50%;background:#E8B48F" aria-hidden="true"></span>Diseño de sonrisa</span><span style="display:inline-flex;align-items:center;gap:7px;padding:8px 13px;border-radius:999px;background:#FFFFFF;border:1px solid #E4D9CC;font:500 13.5px/1 Inter,sans-serif;color:#2A2521"><span style="width:6px;height:6px;border-radius:50%;background:#4C7A5A" aria-hidden="true"></span>Sonrisas de niños</span><span style="display:inline-flex;align-items:center;gap:7px;padding:8px 13px;border-radius:999px;background:#FFFFFF;border:1px solid #E4D9CC;font:500 13.5px/1 Inter,sans-serif;color:#2A2521"><span style="width:6px;height:6px;border-radius:50%;background:#C08457" aria-hidden="true"></span>Antes y después</span></div>
     </div>
     <sc-if value="{{ isDesktop }}" hint-placeholder-val="{{ true }}">
-      <div data-reveal style="display:grid;grid-template-columns:repeat(5,1fr);grid-template-rows:repeat(3,1fr);gap:14px;aspect-ratio:5/3;max-width:1120px;margin:clamp(36px,4.5vw,52px) auto 0"><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08);grid-column:1 / span 2;grid-row:1 / span 2"><image-slot id="sonrisa-1" src="images/dentista1.jpg" shape="rounded" radius="20" fit="cover" placeholder="Foto · diseño de sonrisa" style="display:block;width:100%;height:100%"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Diseño de sonrisa</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08);grid-column:3;grid-row:1"><image-slot id="sonrisa-2" src="images/dentista2.jpg" shape="rounded" radius="20" fit="cover" placeholder="Foto · blanqueamiento" style="display:block;width:100%;height:100%"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Blanqueamiento</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08);grid-column:4;grid-row:1 / span 2"><image-slot id="sonrisa-3" src="images/dentista3.jpeg" shape="rounded" radius="20" fit="cover" placeholder="Foto · ortodoncia" style="display:block;width:100%;height:100%"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Ortodoncia</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08);grid-column:5;grid-row:1 / span 2"><image-slot id="sonrisa-4" src="images/dentista6.jpg" shape="rounded" radius="20" fit="cover" placeholder="Foto · sonrisa de niños" style="display:block;width:100%;height:100%"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Sonrisa de niños</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08);grid-column:3;grid-row:2 / span 2"><image-slot id="sonrisa-5" src="images/dentista6.jpg" shape="rounded" radius="20" fit="cover" placeholder="Foto · antes y después" style="display:block;width:100%;height:100%"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Antes y después</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08);grid-column:1 / span 2;grid-row:3"><image-slot id="sonrisa-6" src="images/dentista4.jpg" shape="rounded" radius="20" fit="cover" placeholder="Foto · blanqueamiento" style="display:block;width:100%;height:100%"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Blanqueamiento</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08);grid-column:4;grid-row:3"><image-slot id="sonrisa-7" src="images/dentista5.jpg" shape="rounded" radius="20" fit="cover" placeholder="Foto · limpieza" style="display:block;width:100%;height:100%"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Limpieza</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08);grid-column:5;grid-row:3"><image-slot id="sonrisa-8" src="images/dentista7.jpg" shape="rounded" radius="20" fit="cover" placeholder="Foto · diseño de sonrisa" style="display:block;width:100%;height:100%"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Diseño de sonrisa</span></div></div>
+      <div data-reveal style="display:grid;grid-template-columns:repeat(5,1fr);grid-template-rows:repeat(3,1fr);gap:14px;aspect-ratio:5/3;max-width:1120px;margin:clamp(36px,4.5vw,52px) auto 0"><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08);grid-column:1 / span 2;grid-row:1 / span 2"><image-slot id="sonrisa-1" src="images/dentista1.webp" shape="rounded" radius="20" fit="cover" placeholder="Foto · diseño de sonrisa" style="display:block;width:100%;height:100%"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Diseño de sonrisa</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08);grid-column:3;grid-row:1"><image-slot id="sonrisa-2" src="images/dentista2.webp" shape="rounded" radius="20" fit="cover" placeholder="Foto · blanqueamiento" style="display:block;width:100%;height:100%"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Blanqueamiento</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08);grid-column:4;grid-row:1 / span 2"><image-slot id="sonrisa-3" src="images/dentista3.webp" shape="rounded" radius="20" fit="cover" placeholder="Foto · ortodoncia" style="display:block;width:100%;height:100%"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Ortodoncia</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08);grid-column:5;grid-row:1 / span 2"><image-slot id="sonrisa-4" src="images/dentista6.webp" shape="rounded" radius="20" fit="cover" placeholder="Foto · sonrisa de niños" style="display:block;width:100%;height:100%"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Sonrisa de niños</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08);grid-column:3;grid-row:2 / span 2"><image-slot id="sonrisa-5" src="images/dentista6.webp" shape="rounded" radius="20" fit="cover" placeholder="Foto · antes y después" style="display:block;width:100%;height:100%"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Antes y después</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08);grid-column:1 / span 2;grid-row:3"><image-slot id="sonrisa-6" src="images/dentista4.webp" shape="rounded" radius="20" fit="cover" placeholder="Foto · blanqueamiento" style="display:block;width:100%;height:100%"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Blanqueamiento</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08);grid-column:4;grid-row:3"><image-slot id="sonrisa-7" src="images/dentista5.webp" shape="rounded" radius="20" fit="cover" placeholder="Foto · limpieza" style="display:block;width:100%;height:100%"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Limpieza</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08);grid-column:5;grid-row:3"><image-slot id="sonrisa-8" src="images/dentista7.webp" shape="rounded" radius="20" fit="cover" placeholder="Foto · diseño de sonrisa" style="display:block;width:100%;height:100%"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Diseño de sonrisa</span></div></div>
     </sc-if>
     <sc-if value="{{ isMobile }}" hint-placeholder-val="{{ false }}">
-      <div data-reveal style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:clamp(28px,6vw,40px)"><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08)"><image-slot id="sonrisa-1" src="images/dentista1.jpg" shape="rounded" radius="20" fit="cover" placeholder="Foto · diseño de sonrisa" style="display:block;width:100%;height:auto;aspect-ratio:1/1"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Diseño de sonrisa</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08)"><image-slot id="sonrisa-2" src="images/dentista2.jpg" shape="rounded" radius="20" fit="cover" placeholder="Foto · blanqueamiento" style="display:block;width:100%;height:auto;aspect-ratio:1/1"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Blanqueamiento</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08)"><image-slot id="sonrisa-3" src="images/dentista3.jpeg" shape="rounded" radius="20" fit="cover" placeholder="Foto · ortodoncia" style="display:block;width:100%;height:auto;aspect-ratio:1/1"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Ortodoncia</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08)"><image-slot id="sonrisa-4" src="images/dentista6.jpg" shape="rounded" radius="20" fit="cover" placeholder="Foto · sonrisa de niños" style="display:block;width:100%;height:auto;aspect-ratio:1/1"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Sonrisa de niños</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08)"><image-slot id="sonrisa-5" src="images/dentista6.jpg" shape="rounded" radius="20" fit="cover" placeholder="Foto · antes y después" style="display:block;width:100%;height:auto;aspect-ratio:1/1"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Antes y después</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08)"><image-slot id="sonrisa-6" src="images/dentista4.jpg" shape="rounded" radius="20" fit="cover" placeholder="Foto · blanqueamiento" style="display:block;width:100%;height:auto;aspect-ratio:1/1"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Blanqueamiento</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08)"><image-slot id="sonrisa-7" src="images/dentista5.jpg" shape="rounded" radius="20" fit="cover" placeholder="Foto · limpieza" style="display:block;width:100%;height:auto;aspect-ratio:1/1"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Limpieza</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08)"><image-slot id="sonrisa-8" src="images/dentista7.jpg" shape="rounded" radius="20" fit="cover" placeholder="Foto · diseño de sonrisa" style="display:block;width:100%;height:auto;aspect-ratio:1/1"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Diseño de sonrisa</span></div></div>
+      <div data-reveal style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:clamp(28px,6vw,40px)"><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08)"><image-slot id="sonrisa-1" src="images/dentista1.webp" shape="rounded" radius="20" fit="cover" placeholder="Foto · diseño de sonrisa" style="display:block;width:100%;height:auto;aspect-ratio:1/1"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Diseño de sonrisa</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08)"><image-slot id="sonrisa-2" src="images/dentista2.webp" shape="rounded" radius="20" fit="cover" placeholder="Foto · blanqueamiento" style="display:block;width:100%;height:auto;aspect-ratio:1/1"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Blanqueamiento</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08)"><image-slot id="sonrisa-3" src="images/dentista3.webp" shape="rounded" radius="20" fit="cover" placeholder="Foto · ortodoncia" style="display:block;width:100%;height:auto;aspect-ratio:1/1"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Ortodoncia</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08)"><image-slot id="sonrisa-4" src="images/dentista6.webp" shape="rounded" radius="20" fit="cover" placeholder="Foto · sonrisa de niños" style="display:block;width:100%;height:auto;aspect-ratio:1/1"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Sonrisa de niños</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08)"><image-slot id="sonrisa-5" src="images/dentista6.webp" shape="rounded" radius="20" fit="cover" placeholder="Foto · antes y después" style="display:block;width:100%;height:auto;aspect-ratio:1/1"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Antes y después</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08)"><image-slot id="sonrisa-6" src="images/dentista4.webp" shape="rounded" radius="20" fit="cover" placeholder="Foto · blanqueamiento" style="display:block;width:100%;height:auto;aspect-ratio:1/1"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Blanqueamiento</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08)"><image-slot id="sonrisa-7" src="images/dentista5.webp" shape="rounded" radius="20" fit="cover" placeholder="Foto · limpieza" style="display:block;width:100%;height:auto;aspect-ratio:1/1"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Limpieza</span></div><div style="position:relative;border-radius:20px;box-shadow:0 12px 40px rgba(42,37,33,.08)"><image-slot id="sonrisa-8" src="images/dentista7.webp" shape="rounded" radius="20" fit="cover" placeholder="Foto · diseño de sonrisa" style="display:block;width:100%;height:auto;aspect-ratio:1/1"></image-slot><span style="position:absolute;left:12px;bottom:12px;pointer-events:none;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(251,248,244,.86);backdrop-filter:blur(8px);font:500 11.5px/1 Inter,sans-serif;color:#6B6259"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C08457" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>Diseño de sonrisa</span></div></div>
     </sc-if>
-    <div data-reveal style="margin-top:clamp(30px,4vw,44px);display:flex;flex-wrap:wrap;gap:12px;justify-content:center;align-items:center"><a href="https://wa.me/524426083776?text=Hola,%20vi%20su%20galer%C3%ADa%20de%20sonrisas%20y%20quiero%20agendar%20una%20valoraci%C3%B3n" style="display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:16px 26px;border-radius:999px;background:#3E5647;color:#FBF8F4;font:600 16px/1 Inter,sans-serif;text-decoration:none;white-space:nowrap;box-shadow:0 10px 30px rgba(62,86,71,.20);transition:background .2s,transform .22s cubic-bezier(.22,1,.36,1),box-shadow .22s" style-hover="background:#2F4437;transform:translateY(-2px);box-shadow:0 16px 40px rgba(62,86,71,.28)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.4L3 21l2.1-5.7A8.4 8.4 0 1 1 21 11.5Z"/></svg>Mándanos un mensaje por WhatsApp</a><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Ver más sonrisas en el Instagram de Ruset Dental" style="display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:16px 24px;border-radius:999px;background:#FFFFFF;color:#3E5647;border:1px solid #E4D9CC;font:600 16px/1 Inter,sans-serif;text-decoration:none;white-space:nowrap;box-shadow:0 1px 3px rgba(42,37,33,.05);transition:background .2s,transform .22s,border-color .2s" style-hover="background:#F4EEE6;transform:translateY(-2px);border-color:#D8C9B8"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>Míranos en Instagram</a></div>
+    <div data-reveal style="margin-top:clamp(30px,4vw,44px);display:flex;flex-wrap:wrap;gap:12px;justify-content:center;align-items:center"><a href="https://wa.me/524426083776?text=Hola,%20vi%20su%20galer%C3%ADa%20de%20sonrisas%20y%20quiero%20agendar%20una%20valoraci%C3%B3n" style="display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:16px 26px;border-radius:999px;background:#3E5647;color:#FBF8F4;font:600 16px/1 Inter,sans-serif;text-decoration:none;white-space:nowrap;box-shadow:0 10px 30px rgba(62,86,71,.20);transition:background .2s,transform .22s cubic-bezier(.22,1,.36,1),box-shadow .22s" style-hover="background:#2F4437;transform:translateY(-2px);box-shadow:0 16px 40px rgba(62,86,71,.28)" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.4L3 21l2.1-5.7A8.4 8.4 0 1 1 21 11.5Z"/></svg>Mándanos un mensaje por WhatsApp</a><a href="https://www.instagram.com/dentalruset/" target="_blank" rel="noopener" aria-label="Ver más sonrisas en el Instagram de Ruset Dental" style="display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:16px 24px;border-radius:999px;background:#FFFFFF;color:#3E5647;border:1px solid #E4D9CC;font:600 16px/1 Inter,sans-serif;text-decoration:none;white-space:nowrap;box-shadow:0 1px 3px rgba(42,37,33,.05);transition:background .2s,transform .22s,border-color .2s" style-hover="background:#F4EEE6;transform:translateY(-2px);border-color:#D8C9B8"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>Míranos en Instagram</a></div>
     <p data-reveal style="margin:16px 0 0;text-align:center;font:400 13px/1.5 Inter,sans-serif;color:#8C8378">Fotos reales de nuestros pacientes, compartidas con su permiso.</p>
   </div>
 </section>
@@ -1937,7 +1906,7 @@
                       transition: gap 0.2s;
                     "
                     style-hover="gap:10px"
-                    >Quiero saber más
+                     target="_blank" rel="noopener">Quiero saber más
                     <svg
                       width="16"
                       height="16"
@@ -2050,7 +2019,7 @@
                       transition: gap 0.2s;
                     "
                     style-hover="gap:10px"
-                    >Quiero saber más
+                     target="_blank" rel="noopener">Quiero saber más
                     <svg
                       width="16"
                       height="16"
@@ -2193,7 +2162,7 @@
                       transition: gap 0.2s;
                     "
                     style-hover="gap:10px"
-                    >Quiero saber más
+                     target="_blank" rel="noopener">Quiero saber más
                     <svg
                       width="16"
                       height="16"
@@ -2307,7 +2276,7 @@
                       transition: gap 0.2s;
                     "
                     style-hover="gap:10px"
-                    >Quiero saber más
+                     target="_blank" rel="noopener">Quiero saber más
                     <svg
                       width="16"
                       height="16"
@@ -2491,7 +2460,7 @@
                         transform 0.22s;
                     "
                     style-hover="background:#EFE7DC;transform:translateY(-2px)"
-                    >Agenda tu valoración
+                     target="_blank" rel="noopener">Agenda tu valoración
                     <svg
                       width="17"
                       height="17"
@@ -2829,7 +2798,7 @@
                       box-shadow 0.22s;
                   "
                   style-hover="background:#2F4437;transform:translateY(-2px);box-shadow:0 16px 40px rgba(62,86,71,.28)"
-                  >Agenda tu primera valoración
+                   target="_blank" rel="noopener">Agenda tu primera valoración
                   <svg
                     width="18"
                     height="18"
@@ -3282,7 +3251,7 @@
                       box-shadow 0.22s;
                   "
                   style-hover="background:#2F4437;transform:translateY(-2px);box-shadow:0 16px 40px rgba(62,86,71,.28)"
-                  >Agenda con Claudia o Daniela
+                   target="_blank" rel="noopener">Agenda con Claudia o Daniela
                   <svg
                     width="18"
                     height="18"
@@ -3765,7 +3734,7 @@
                           box-shadow 0.22s;
                       "
                       style-hover="background:#2F4437;transform:translateY(-2px);box-shadow:0 16px 40px rgba(62,86,71,.28)"
-                      >Quiero mi blanqueamiento
+                       target="_blank" rel="noopener">Quiero mi blanqueamiento
                       <svg
                         width="18"
                         height="18"
@@ -4036,7 +4005,7 @@
                       box-shadow 0.22s;
                   "
                   style-hover="background:#2F4437;transform:translateY(-2px);box-shadow:0 16px 40px rgba(62,86,71,.28)"
-                  >Quiero mi cita
+                   target="_blank" rel="noopener">Quiero mi cita
                   <svg
                     width="18"
                     height="18"
@@ -4230,7 +4199,7 @@
                         transform 0.2s;
                     "
                     style-hover="background:#EFE7DC;transform:translateY(-2px)"
-                    >Pídela ahora</a
+                     target="_blank" rel="noopener">Pídela ahora</a
                   >
                 </div>
 
@@ -4547,7 +4516,7 @@
                       box-shadow 0.22s;
                   "
                   style-hover="background:#2F4437;transform:translateY(-2px);box-shadow:0 16px 40px rgba(62,86,71,.28)"
-                  >Pide tu presupuesto sin costo
+                   target="_blank" rel="noopener">Pide tu presupuesto sin costo
                   <svg
                     width="17"
                     height="17"
@@ -4877,7 +4846,7 @@
                             box-shadow 0.22s;
                         "
                         style-hover="background:#2F4437;transform:translateY(-2px);box-shadow:0 16px 40px rgba(62,86,71,.28)"
-                        >Agenda la cita de tu peque
+                         target="_blank" rel="noopener">Agenda la cita de tu peque
                         <svg
                           width="18"
                           height="18"
@@ -5080,7 +5049,7 @@
                       box-shadow 0.22s;
                   "
                   style-hover="background:#2F4437;transform:translateY(-2px);box-shadow:0 16px 40px rgba(62,86,71,.28)"
-                >
+                 target="_blank" rel="noopener">
                   <svg
                     width="18"
                     height="18"
@@ -5205,151 +5174,11 @@
                   gap: 24px;
                 "
               >
-                <a
-                  data-reveal
-                  href="https://www.google.com/maps/search/?api=1&query=Plaza%20Toscana%20Blvd.%20El%20Salto%20198%20Real%20de%20Juriquilla%2076226%20Quer%C3%A9taro"
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="Abrir la ubicación de Ruset Dental en Google Maps"
-                  style="
-                    flex: 1 1 380px;
-                    min-height: 360px;
-                    position: relative;
-                    border-radius: 28px;
-                    overflow: hidden;
-                    text-decoration: none;
-                    background-color: #eae0d2;
-                    background-image:
-                      repeating-linear-gradient(
-                        0deg,
-                        rgba(42, 37, 33, 0.05) 0 1px,
-                        transparent 1px 48px
-                      ),
-                      repeating-linear-gradient(
-                        90deg,
-                        rgba(42, 37, 33, 0.05) 0 1px,
-                        transparent 1px 48px
-                      );
-                    box-shadow: 0 14px 44px rgba(42, 37, 33, 0.08);
-                    border: 1px solid #e4d9cc;
-                  "
-                >
-                  <div
-                    style="
-                      position: absolute;
-                      left: -12%;
-                      top: 56%;
-                      width: 124%;
-                      height: 30px;
-                      background: rgba(251, 248, 244, 0.72);
-                      transform: rotate(-7deg);
-                    "
-                  ></div>
-                  <div
-                    style="
-                      position: absolute;
-                      left: 26%;
-                      top: -12%;
-                      width: 22px;
-                      height: 124%;
-                      background: rgba(251, 248, 244, 0.62);
-                      transform: rotate(5deg);
-                    "
-                  ></div>
-                  <div
-                    style="
-                      position: absolute;
-                      left: 63%;
-                      top: -12%;
-                      width: 14px;
-                      height: 124%;
-                      background: rgba(251, 248, 244, 0.5);
-                      transform: rotate(5deg);
-                    "
-                  ></div>
-                  <div
-                    style="
-                      position: absolute;
-                      left: 50%;
-                      top: 43%;
-                      transform: translate(-50%, -50%);
-                      width: 74px;
-                      height: 74px;
-                      border-radius: 50%;
-                      background: rgba(62, 86, 71, 0.14);
-                    "
-                  ></div>
-                  <div
-                    style="
-                      position: absolute;
-                      left: 50%;
-                      top: 43%;
-                      transform: translate(-50%, -100%);
-                    "
-                  >
-                    <svg
-                      width="42"
-                      height="42"
-                      viewBox="0 0 24 24"
-                      fill="#3E5647"
-                      aria-hidden="true"
-                    >
-                      <path
-                        d="M12 22s7-6.7 7-12A7 7 0 0 0 5 10c0 5.3 7 12 7 12Z"
-                      />
-                      <circle cx="12" cy="10" r="2.7" fill="#FBF8F4" />
-                    </svg>
-                  </div>
-                  <span
-                    style="
-                      position: absolute;
-                      left: 16px;
-                      bottom: 16px;
-                      display: inline-flex;
-                      align-items: center;
-                      gap: 8px;
-                      padding: 9px 14px;
-                      border-radius: 999px;
-                      background: rgba(251, 248, 244, 0.92);
-                      backdrop-filter: blur(8px);
-                      font:
-                        600 13px/1 Inter,
-                        sans-serif;
-                      color: #2a2521;
-                    "
-                    >Plaza Toscana · Local 6</span
-                  >
-                  <span
-                    style="
-                      position: absolute;
-                      right: 16px;
-                      top: 16px;
-                      display: inline-flex;
-                      align-items: center;
-                      gap: 7px;
-                      padding: 10px 15px;
-                      border-radius: 999px;
-                      background: #3e5647;
-                      color: #fbf8f4;
-                      font:
-                        600 13.5px/1 Inter,
-                        sans-serif;
-                    "
-                    >Cómo llegar
-                    <svg
-                      width="15"
-                      height="15"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      aria-hidden="true"
-                    >
-                      <path d="M7 17L17 7M9 7h8v8" /></svg
-                  ></span>
-                </a>
+                <div data-reveal style="flex:1 1 380px;min-height:360px;position:relative;border-radius:28px;overflow:hidden;background:#EAE0D2;box-shadow:0 14px 44px rgba(42,37,33,.08);border:1px solid #E4D9CC">
+                  <iframe title="Mapa de Ruset Dental — Plaza Toscana, Real de Juriquilla" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.7323148688783!2d-100.46776692529377!3d20.721091898275883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d357916c4885df%3A0xdb323e9d5f07e33d!2sDentista%20en%20Juriquilla%20%7C%20Ortodoncia%20Brackets%20y%20alineadores%20%7C%20Urgencias%20dentales%20%7C%20Dise%C3%B1o%20de%20sonrisa%20%7C%20Ruset%20Dental!5e0!3m2!1sen!2smx!4v1782967348270!5m2!1sen!2smx" style="position:absolute;inset:0;width:100%;height:100%;border:0;display:block" loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                  <span style="position:absolute;left:16px;bottom:16px;z-index:2;pointer-events:none;display:inline-flex;align-items:center;gap:8px;padding:9px 14px;border-radius:999px;background:rgba(251,248,244,.92);backdrop-filter:blur(8px);box-shadow:0 4px 14px rgba(42,37,33,.14);font:600 13px/1 Inter,sans-serif;color:#2A2521">Plaza Toscana · Local 6</span>
+                  <a href="https://www.google.com/maps/search/?api=1&query=Plaza%20Toscana%20Blvd.%20El%20Salto%20198%20Real%20de%20Juriquilla%2076226%20Quer%C3%A9taro" target="_blank" rel="noopener" aria-label="Abrir la ubicación de Ruset Dental en Google Maps" style="position:absolute;right:16px;top:16px;z-index:2;display:inline-flex;align-items:center;gap:7px;padding:10px 15px;border-radius:999px;background:#3E5647;color:#FBF8F4;text-decoration:none;font:600 13.5px/1 Inter,sans-serif;box-shadow:0 6px 18px rgba(42,37,33,.22);transition:background .2s,transform .2s" style-hover="background:#2F4437;transform:translateY(-1px)">Cómo llegar <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+                </div>
 
                 <div
                   data-reveal
@@ -5837,7 +5666,7 @@
                       box-shadow 0.22s;
                   "
                   style-hover="background:#FFFFFF;transform:translateY(-3px);box-shadow:0 20px 50px rgba(0,0,0,.24)"
-                  >Agenda tu primera valoración
+                   target="_blank" rel="noopener">Agenda tu primera valoración
                   <svg
                     width="18"
                     height="18"
@@ -6005,7 +5834,7 @@
                 </p>
                 <div style="display: flex; gap: 10px">
                   <a
-                    href="https://www.instagram.com/"
+                    href="https://www.instagram.com/dentalruset/"
                     target="_blank"
                     rel="noopener"
                     aria-label="Instagram de Ruset Dental"
@@ -6044,38 +5873,7 @@
                         stroke="none"
                       /></svg
                   ></a>
-                  <a
-                    href="https://www.facebook.com/"
-                    target="_blank"
-                    rel="noopener"
-                    aria-label="Facebook de Ruset Dental"
-                    style="
-                      width: 40px;
-                      height: 40px;
-                      border-radius: 11px;
-                      background: #fbf8f4;
-                      border: 1px solid #e4d9cc;
-                      display: inline-flex;
-                      align-items: center;
-                      justify-content: center;
-                      color: #3e5647;
-                      text-decoration: none;
-                      transition:
-                        background 0.2s,
-                        transform 0.2s;
-                    "
-                    style-hover="background:#EFE7DC;transform:translateY(-2px)"
-                    ><svg
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        d="M14 8.5h2V5.5h-2.2A3.3 3.3 0 0 0 10.5 8.8V11H8.5v3h2v6.5h3V14h2.2l.4-3H13.5V9.1c0-.4.3-.6.5-.6z"
-                      /></svg
-                  ></a>
+                  
                   <a
                     href="https://www.google.com/search?q=Ruset%20Dental%20Real%20de%20Juriquilla%20rese%C3%B1as"
                     target="_blank"
@@ -6164,7 +5962,7 @@
                       transition: color 0.2s;
                     "
                     style-hover="color:#3E5647"
-                    >WhatsApp · +52 442 608 3776</a
+                     target="_blank" rel="noopener">WhatsApp · +52 442 608 3776</a
                   >
                   <a
                     href="mailto:hola@rusetdental.mx"
@@ -6295,7 +6093,7 @@
                       transition: color 0.2s;
                     "
                     style-hover="color:#2F4437"
-                    >Agenda tu cita →</a
+                     target="_blank" rel="noopener">Agenda tu cita →</a
                   >
                 </div>
               </div>
@@ -6366,7 +6164,7 @@
                   opacity 0.3s;
               "
               style-hover="background:#2F4437;transform:translateY(-3px)"
-            >
+             target="_blank" rel="noopener">
               <svg
                 width="27"
                 height="27"
@@ -6455,7 +6253,7 @@
                 text-decoration: none;
                 box-shadow: 0 8px 22px rgba(62, 86, 71, 0.22);
               "
-            >
+             target="_blank" rel="noopener">
               <svg
                 width="18"
                 height="18"
